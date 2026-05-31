@@ -1,0 +1,10 @@
+mov r2,0;
+loop:
+mov r3,5;
+mov r4,6;
+mov r5,2;
+mov r6,6;
+mov r7,6;
+add r5,r3,r4;
+sub r4,r7,r6;
+bgt loop:
